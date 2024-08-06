@@ -9,3 +9,4 @@
 | Results seem to be wrong | Incorrect seed detection parameters | Seeds are not being reliably detected. Tune parameters using [debug mode](https://github.com/jiaxuanleong/SPIRO.Assays#spiro-assay-debug-mode). |
 | Unexpected errors from R scripts | Outdated packages | Update your R packages (e.g., `update.packages(ask=F)`) |
 | `Error in makePSOCKcluster` | Bug in R on Mac | Update R to version 4.1.2 or higher |
+| Directory chooser not working on Windows | [Bug in RStudio](https://github.com/rstudio/rstudio/issues/13078) | Run `file.choose()` before running the script |
